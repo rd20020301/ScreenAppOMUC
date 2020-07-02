@@ -12,7 +12,7 @@ One Million Uzbek Coders - Udacity (Andorid Basic first project)
     d) Hours of operation
 
 ## Final Output - Screenshots
-[ScreenApp](file/screen.jpg)  
+![screenshot](file/screen.jpg)  
 
 
 # Download
