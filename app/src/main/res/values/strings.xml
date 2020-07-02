@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ScreenApp</string>
+    <string name="bussiness_name">Contact infromation</string>
+    <string name="address">Forish str., 48/1, Jizzakh, 130100</string>
+    <string name="phone_number">998 91 566 98 28</string>
+    <string name="description">"The Jizzakh branch of the National University of Uzbekistan named after Mirzo Ulugbek The proposals of the President of the Republic of Uzbekistan Shavkat Mirziyoyev during his visit to Jizzakh region on January 30-31, 2019 and the Ministers of the Republic of Uzbekistan It was established in accordance with the Resolution of the Cabinet of Ministers No. 563 of July 5, 2019 and the Resolution of the Governor of Jizzakh region No. 261 of July 10, 2019. From the 2019/2020 academic year, the branch has 1 faculty, 2 departments, 5 bachelors A total of 14 people in the field of education, including: Professor, Doctors of Science - 3 people, Associate Professor, candidates of sciences - 1 person, assistants, teachers - 10 professors-teachers 225 has been educating students.”</string>
+    <string name="cover_photo">Cover Photo</string>
+    <string name="deepanshu_sinha">Jizzakh branch of NUU</string>
+    <string name="bengaluru_india">Jizzakh, UZB</string>
+    <string name="dash">---------------------------</string>
+    <string name="desc_1">About students studying at the Jizzakh branch of the </string>
+    <string name="desc_2">National University of Uzbekistan </string>
+    <string name="about">INFORMATION</string>
+    <string name="todo_1">TODO</string>
+    <string name="todo_2">TODO</string>
+    <string name="todo_3">TODO</string>
+    <string name="todo_4">TODO</string>
+    <string name="todo" />
+    <string name="site" >www.jbnuu.uz</string>
+</resources>

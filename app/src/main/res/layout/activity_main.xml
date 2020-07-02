@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="uz.include.screenapp.MainActivity"
+    tools:ignore="ScrollViewCount">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="1000dp"
+        android:background="@color/fff"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_250"
+            android:background="@color/fff">
+
+            <!-- Cover Image -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:contentDescription="@string/cover_photo"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner_back" />
+
+            <!-- Round Image -->
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:background="@color/fff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/deepanshu_sinha"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/sp_22"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/bengaluru_india"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="@string/dash"
+                android:textSize="@dimen/sp_28"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/desc_1"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/desc_2"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="MissingClass" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_30"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textStyle="bold"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:layout_width="319dp"
+                android:layout_height="294dp"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/description"
+                android:textAlignment="center"
+                tools:ignore="MissingClass" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginBottom="@dimen/layout_xxl_margin_padding"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <ImageView
+                style="@style/PictureLeft"
+                android:layout_width="188dp"
+                android:layout_height="202dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/photo_right" />
+
+            <ImageView
+                style="@style/PictureRight"
+                android:layout_width="188dp"
+                android:layout_height="202dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/photo_left" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@color/acacac">
+
+            <ImageView
+                android:id="@+id/image_view_phone"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:layout_below="@+id/employer_name"
+                android:layout_marginTop="@dimen/dp_8"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_call_black_24dp" />
+
+            <ImageView
+                android:id="@+id/image_view_address"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:layout_below="@+id/image_view_phone"
+                android:layout_marginTop="@dimen/dp_8"
+                android:contentDescription="@string/todo"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_add_location_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/employer_name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/image_view_phone"
+                android:autoLink="phone"
+                android:text="@string/phone_number"
+                tools:ignore="MissingClass,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/employer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bussiness_name"
+                android:textStyle="bold"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view_phone"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_toRightOf="@+id/image_view_address"
+                android:text="@string/address"
+                tools:ignore="MissingClass,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view_phone"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="38dp"
+                android:layout_toRightOf="@+id/image_view_address"
+                android:text="@string/site"
+                tools:ignore="DuplicateIds,MissingClass,RtlHardcoded" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
